@@ -1,0 +1,320 @@
+{
+	"id": "5a285136-77d2-4a67-8b43-4fb7e715e656",
+	"name": "REST API basics: CRUD, test & variable",
+	"timestamp": "2025-06-12T19:53:10.911Z",
+	"collection_id": "30969544-d196046b-263c-43b2-9e40-36604b91c722",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 30,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-06-12T19:52:57.467Z",
+	"totalFail": 30,
+	"results": [
+		{
+			"id": "ea14f32a-8052-4172-bf65-4a9028598280",
+			"name": "Get data",
+			"url": "https://postman-rest-api-learner.glitch.me//info?id=1",
+			"time": 266,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				1433,
+				192,
+				181,
+				275,
+				275,
+				269,
+				186,
+				202,
+				466,
+				266
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9920d818-a092-42e0-98cd-6f17621ac7c5",
+			"name": "Post data",
+			"url": "https://reqres.in/api/users",
+			"time": 169,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 201": false,
+				"ID is numeric": false,
+				"createdAt is valid ISO date": false
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 0,
+					"fail": 10
+				},
+				"ID is numeric": {
+					"pass": 0,
+					"fail": 10
+				},
+				"createdAt is valid ISO date": {
+					"pass": 0,
+					"fail": 10
+				}
+			},
+			"times": [
+				363,
+				249,
+				150,
+				173,
+				232,
+				175,
+				252,
+				245,
+				159,
+				169
+			],
+			"allTests": [
+				{
+					"Status code is 201": false,
+					"ID is numeric": false,
+					"createdAt is valid ISO date": false
+				},
+				{
+					"Status code is 201": false,
+					"ID is numeric": false,
+					"createdAt is valid ISO date": false
+				},
+				{
+					"Status code is 201": false,
+					"ID is numeric": false,
+					"createdAt is valid ISO date": false
+				},
+				{
+					"Status code is 201": false,
+					"ID is numeric": false,
+					"createdAt is valid ISO date": false
+				},
+				{
+					"Status code is 201": false,
+					"ID is numeric": false,
+					"createdAt is valid ISO date": false
+				},
+				{
+					"Status code is 201": false,
+					"ID is numeric": false,
+					"createdAt is valid ISO date": false
+				},
+				{
+					"Status code is 201": false,
+					"ID is numeric": false,
+					"createdAt is valid ISO date": false
+				},
+				{
+					"Status code is 201": false,
+					"ID is numeric": false,
+					"createdAt is valid ISO date": false
+				},
+				{
+					"Status code is 201": false,
+					"ID is numeric": false,
+					"createdAt is valid ISO date": false
+				},
+				{
+					"Status code is 201": false,
+					"ID is numeric": false,
+					"createdAt is valid ISO date": false
+				}
+			]
+		},
+		{
+			"id": "a5482eea-f286-4877-b894-ba40c206c566",
+			"name": "Update data",
+			"url": "https://postman-rest-api-learner.glitch.me//info?id=1",
+			"time": 177,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Successful PUT request": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				221,
+				265,
+				269,
+				228,
+				314,
+				174,
+				176,
+				290,
+				281,
+				177
+			],
+			"allTests": [
+				{
+					"Successful PUT request": true
+				},
+				{
+					"Successful PUT request": true
+				},
+				{
+					"Successful PUT request": true
+				},
+				{
+					"Successful PUT request": true
+				},
+				{
+					"Successful PUT request": true
+				},
+				{
+					"Successful PUT request": true
+				},
+				{
+					"Successful PUT request": true
+				},
+				{
+					"Successful PUT request": true
+				},
+				{
+					"Successful PUT request": true
+				},
+				{
+					"Successful PUT request": true
+				}
+			]
+		},
+		{
+			"id": "9ec599e0-0a19-482e-b9af-31434fa5578c",
+			"name": "Delete data",
+			"url": "https://postman-rest-api-learner.glitch.me//info?id=1",
+			"time": 247,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful DELETE request": true
+			},
+			"testPassFailCounts": {
+				"Successful DELETE request": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				297,
+				270,
+				370,
+				206,
+				274,
+				184,
+				248,
+				180,
+				182,
+				247
+			],
+			"allTests": [
+				{
+					"Successful DELETE request": true
+				},
+				{
+					"Successful DELETE request": true
+				},
+				{
+					"Successful DELETE request": true
+				},
+				{
+					"Successful DELETE request": true
+				},
+				{
+					"Successful DELETE request": true
+				},
+				{
+					"Successful DELETE request": true
+				},
+				{
+					"Successful DELETE request": true
+				},
+				{
+					"Successful DELETE request": true
+				},
+				{
+					"Successful DELETE request": true
+				},
+				{
+					"Successful DELETE request": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 10765,
+	"collection": {
+		"requests": [
+			{
+				"id": "ea14f32a-8052-4172-bf65-4a9028598280",
+				"method": "GET"
+			},
+			{
+				"id": "9920d818-a092-42e0-98cd-6f17621ac7c5",
+				"method": "POST"
+			},
+			{
+				"id": "a5482eea-f286-4877-b894-ba40c206c566",
+				"method": "PUT"
+			},
+			{
+				"id": "9ec599e0-0a19-482e-b9af-31434fa5578c",
+				"method": "DELETE"
+			}
+		]
+	}
+}
